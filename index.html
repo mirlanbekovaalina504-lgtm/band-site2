@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Echo — музыкальная группа</title>
+  </head>
+  <body>
+    <div id="loader-bar" class="loader-bar" aria-hidden="true"></div>
+    <div id="loader-pill" class="loader-pill" role="status" aria-live="polite">
+      <span class="spinner"></span> Загрузка…
+    </div>
+    <div id="toasts" class="toasts"></div>
+
+    <header class="header">
+      <a class="logo" href="#/">Neon<span>Echo</span></a>
+      <nav id="nav" class="nav"></nav>
+    </header>
+
+    <main id="app" class="container"></main>
+
+    <footer class="footer">© Neon Echo. Учебный проект.</footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
